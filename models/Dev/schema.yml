@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: emp_details
+    columns:
+      - name: empno
+        tests:
+          - unique
+          - not_null
+
+sources:
+  - name: DevProject
+    database: dbtDb  
+    schema: dbtSchema  
+    tables:
+      - name: emp
