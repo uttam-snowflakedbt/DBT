@@ -9,7 +9,7 @@
 select empno,
        ename,
        sal,
-       dept,
+       deptno,
        Received_dt 
        from {{ source('DevProject', 'emp') }}
 

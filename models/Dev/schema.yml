@@ -10,7 +10,7 @@ models:
 
 sources:
   - name: DevProject
-    database: dbtDb  
-    schema: dbtSchema  
+    database: dbt_Database  
+    schema: dbt_Schema  
     tables:
       - name: emp
